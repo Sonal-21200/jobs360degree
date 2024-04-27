@@ -20,8 +20,8 @@ const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 25,
   auth: {
-    user: "holisticeducation052021@gmail.com",
-    pass: "girp yqus ccja ntow"
+    user: "your mail",
+    pass: "your password"
   }
 });
 
