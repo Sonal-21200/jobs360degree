@@ -140,8 +140,8 @@ exports.forgotPassword = async (req, res) => {
 };
 
 passport.use(new GoogleStrategy({
-  clientID: '922589496437-8rbbeqfi97ofs5vpvf6cgse9j0pnrpd5.apps.googleusercontent.com',
-  clientSecret: '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',
+  clientID: 'your client id',
+  clientSecret: 'your client id secret',
   callbackURL: "http://localhost:8081/auth/google/callback"
 },
 async function(accessToken, refreshToken, profile, done) {
